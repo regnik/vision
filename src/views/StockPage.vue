@@ -1,17 +1,17 @@
 <template>
   <div class="com-page">
-    <single-map></single-map>
+    <stock></stock>
   </div>
 </template>
 
 <script>
-import Map from "../components/Map.vue";
+import Stock from "../components/Stock.vue";
 export default {
   components: {
-    "single-map": Map,
+    stock: Stock,
   },
 };
 </script>
 
-<style lang="less" scoped>
+<style>
 </style>

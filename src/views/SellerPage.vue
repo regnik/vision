@@ -7,10 +7,6 @@
 <script>
 import Seller from "../components/Seller";
 export default {
-  data() {
-    return {};
-  },
-  methods: {},
   components: {
     seller: Seller,
   },
